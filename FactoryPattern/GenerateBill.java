@@ -18,7 +18,7 @@ public class GenerateBill {
 
         if(plan != null) {
             plan.setRate(rate);
-            int bill = plan.calculateBill(units);  // Change to int to match Plan method return type
+            int bill = plan.calculateBill(units);  
             System.out.println("The bill for " + units + " units for " + planType + " plan is: " + bill);
         } else {
             System.out.println("Invalid plan type entered.");
